@@ -5,6 +5,73 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.1](https://github.com/mcarvin8/apex-test-list/compare/v1.10.1...v1.5.1) (2025-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* adds initial support for reading test suites in annotations
+
+### Features
+
+* adds detection of test classes by checking for the "is test" annotation ([3a86d02](https://github.com/mcarvin8/apex-test-list/commit/3a86d02380f8d263ed0983449000a93b28b4ed16))
+* adds initial support for reading test suites in annotations ([16dc098](https://github.com/mcarvin8/apex-test-list/commit/16dc098b7df24ebeb2e68db8bcdff3b3d4631722))
+* adds support for tests in namespaces within test suites ([49ca3d6](https://github.com/mcarvin8/apex-test-list/commit/49ca3d66e1ab38dbf0123b7e3215f1dd4df556ef))
+* adds wildcard support for tests in test suites ([8de05f0](https://github.com/mcarvin8/apex-test-list/commit/8de05f0a5c39c9f26ee6945efc995be392f9393f))
+* adds wildcard support for tests in test suites ([4463655](https://github.com/mcarvin8/apex-test-list/commit/4463655950bb3273f75ec0aabb7e481f172dba6f))
+* allow multiple annotation matches in a single file ([0331358](https://github.com/mcarvin8/apex-test-list/commit/0331358488a3ef7252af89c2d4cfb44d6f934790))
+* allow multiple annotation matches in a single file ([c32300a](https://github.com/mcarvin8/apex-test-list/commit/c32300a756731bf54afab0282a4fe011e658376c))
+* ignore package directories ([4909eb7](https://github.com/mcarvin8/apex-test-list/commit/4909eb7f6cb497a3fdb1b0f78d747dff9f2c703e))
+* read sfdx-project.json for package directories ([c0fb802](https://github.com/mcarvin8/apex-test-list/commit/c0fb80285ed9f028572dc84bbc6c908997ae36c6))
+* read sfdx-project.json for package directories ([fc58565](https://github.com/mcarvin8/apex-test-list/commit/fc58565a7e7d036393bb667de4447daca6f976f3))
+* remove dependency on git repos ([288c5fe](https://github.com/mcarvin8/apex-test-list/commit/288c5fe19014d7f86baf687e4da440a6f17505d8))
+* remove dependency on git repos ([8e073bf](https://github.com/mcarvin8/apex-test-list/commit/8e073bfa742b2b863de064c51591b26d8d9de6d5))
+
+
+### Bug Fixes
+
+* convert to set to remove duplicate test methods ([1165dc1](https://github.com/mcarvin8/apex-test-list/commit/1165dc1109929db7539189d685f714e30f0c7fc7))
+* convert to set to remove duplicate test methods ([3385541](https://github.com/mcarvin8/apex-test-list/commit/3385541b86d9570a89bb4a33a771baecc824c826))
+* **deps:** bump @oclif/core from 4.0.20 to 4.0.21 ([55f2a93](https://github.com/mcarvin8/apex-test-list/commit/55f2a93dc18d191245eee88dbad0267fadca396d))
+* **deps:** bump @oclif/core from 4.0.20 to 4.0.21 ([30d17f7](https://github.com/mcarvin8/apex-test-list/commit/30d17f77f236dd4025c5af053103b9294dd9e184))
+* **deps:** bump @oclif/core from 4.0.22 to 4.0.27 ([7d3202e](https://github.com/mcarvin8/apex-test-list/commit/7d3202e4a801157c79359de4258abd2969d4ceea))
+* **deps:** bump @oclif/core from 4.0.22 to 4.0.27 ([a3e7502](https://github.com/mcarvin8/apex-test-list/commit/a3e750201e23cdf1bf8a17652cd1d2854cc38007))
+* **deps:** bump @oclif/core from 4.0.27 to 4.0.30 ([343f381](https://github.com/mcarvin8/apex-test-list/commit/343f381c908fa9ba89eca70f0add8844c8fdd98f))
+* **deps:** bump @oclif/core from 4.0.30 to 4.0.31 ([a12c48e](https://github.com/mcarvin8/apex-test-list/commit/a12c48ecc63f21203ad727bbb74701127f266f68))
+* **deps:** bump @oclif/core from 4.0.31 to 4.0.32 ([4512f80](https://github.com/mcarvin8/apex-test-list/commit/4512f80b67a4f7cead2ef7f8775222e3a1dab3b9))
+* **deps:** bump @oclif/core from 4.0.32 to 4.0.37 ([bb89430](https://github.com/mcarvin8/apex-test-list/commit/bb894302f9b523741d4e90404f0f7e06522d229c))
+* **deps:** bump @oclif/core from 4.0.32 to 4.0.37 ([1699bf6](https://github.com/mcarvin8/apex-test-list/commit/1699bf60baf36daaf65ec56910811620d693800b))
+* **deps:** bump @oclif/core from 4.0.37 to 4.1.1 ([4b331bc](https://github.com/mcarvin8/apex-test-list/commit/4b331bc76112124e05aecce55452ce415764c7eb))
+* **deps:** bump @oclif/core from 4.0.37 to 4.1.1 ([efa197b](https://github.com/mcarvin8/apex-test-list/commit/efa197bc1a0f84ae210c7957a8665631caf5bd60))
+* **deps:** bump @oclif/core from 4.1.1 to 4.2.0 ([e27d43e](https://github.com/mcarvin8/apex-test-list/commit/e27d43eb0abb8d5cb0cd9ed1330983f90368e8d4))
+* **deps:** bump @oclif/core from 4.2.0 to 4.2.3 ([12f686b](https://github.com/mcarvin8/apex-test-list/commit/12f686b278bf64e77af80bedf503a593f2834129))
+* **deps:** bump @oclif/core from 4.2.3 to 4.2.6 ([9082b36](https://github.com/mcarvin8/apex-test-list/commit/9082b367c4c674faad12e6b59b71c3ec806fc5d2))
+* **deps:** bump @oclif/core from 4.2.3 to 4.2.6 ([cb9d665](https://github.com/mcarvin8/apex-test-list/commit/cb9d665497240c0db648ff1a2111a3e5a758cf45))
+* **deps:** bump @salesforce/core from 8.5.7 to 8.6.1 ([c858a00](https://github.com/mcarvin8/apex-test-list/commit/c858a00f8daabfd1f69fe39e1faa986de1942b93))
+* **deps:** bump @salesforce/core from 8.5.7 to 8.6.1 ([efac530](https://github.com/mcarvin8/apex-test-list/commit/efac530945c589605a70363a777ba0c7b5aabed5))
+* **deps:** bump @salesforce/core from 8.6.4 to 8.8.0 ([f81fb1e](https://github.com/mcarvin8/apex-test-list/commit/f81fb1ee4da2bd3d4b77f826200de99964538d74))
+* **deps:** bump @salesforce/sf-plugins-core from 11.3.10 to 11.3.12 ([33687cc](https://github.com/mcarvin8/apex-test-list/commit/33687cc48201312e0154f88beee6a515f196c647))
+* fixes the case sensitivity issue that was accidentaly added ([f65b197](https://github.com/mcarvin8/apex-test-list/commit/f65b1973c5c2c5bdebf1239b3a8e7ce13bae154c))
+* fixes the case sensitivity issue that was accidentaly added in 1.5.0 ([e6b2de5](https://github.com/mcarvin8/apex-test-list/commit/e6b2de5eff226a4a7695281aad85a44f3fa77fde))
+* ignore cases in prefixes and allow spaces as separators ([4d0b3f8](https://github.com/mcarvin8/apex-test-list/commit/4d0b3f843598aa83dd9e3f72ee4e95c0688488fd))
+* ignore cases in prefixes and allow spaces as separators ([ac2c7ed](https://github.com/mcarvin8/apex-test-list/commit/ac2c7ed717f3d7314b03c2cb31827e1028164ac1))
+* ignore cases on test name regex ([2363699](https://github.com/mcarvin8/apex-test-list/commit/2363699a259f384bf6658c44773ab7a14fc588be))
+* ignore cases on type names in manifest files ([9622343](https://github.com/mcarvin8/apex-test-list/commit/96223439c1d476ae66de6fdae6d6859edc3c989e))
+* ignore cases on type names in manifest files ([be2906d](https://github.com/mcarvin8/apex-test-list/commit/be2906de8dc3d347ee144b87a70d43d3333dc549))
+* ignores case sensitivity on the line cleanup too ([c41056f](https://github.com/mcarvin8/apex-test-list/commit/c41056faedd6476f2bc223a1ea4f05a5a05ae35e))
+* ignores case sensitivity when reading tests and test suites names on files ([c737d0e](https://github.com/mcarvin8/apex-test-list/commit/c737d0e62eec36d95a1bcd0e69f83e7cf42b694e))
+* include colon in the regex ([7488096](https://github.com/mcarvin8/apex-test-list/commit/7488096707a56eac751fdea1482cc31af976e450))
+* remove newline parsing from test class regex ([df2c6b3](https://github.com/mcarvin8/apex-test-list/commit/df2c6b3c91906bc6127bef6cc684f487a909bfe1))
+* remove newline parsing from test class regex ([233c051](https://github.com/mcarvin8/apex-test-list/commit/233c051ea569362585cc4ca39b0d0c55b50b415e))
+* reverts Yarn version in packageManager to 1.22.22 ([7ec0c02](https://github.com/mcarvin8/apex-test-list/commit/7ec0c02b52ae7b9f98052cd1dc7c81573f449dbb))
+* stop the regex match at the end of the line ([236fdbd](https://github.com/mcarvin8/apex-test-list/commit/236fdbde12da0e51a9705d55dccd7a820f50ffd4))
+* stop the regex match at the end of the line ([914cfc7](https://github.com/mcarvin8/apex-test-list/commit/914cfc77084aa1c76078bbc350051ea0446ea941))
+
+
+### Miscellaneous Chores
+
+* release 1.5.1 ([36cbcbb](https://github.com/mcarvin8/apex-test-list/commit/36cbcbb2f02eaaf32648296b524ce2e64949fa51))
+
 ## [1.10.1](https://github.com/renatoliveira/apex-test-list/compare/v1.10.0...v1.10.1) (2025-02-13)
 
 
